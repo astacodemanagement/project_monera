@@ -1517,7 +1517,7 @@
               <div class="single-fun-factor">
                 <!-- counter start -->
                 <div class="counter text-center">
-                  <h3><span class="counter-active">50</span>+</h3>
+                  <h3><span class="counter-active">522</span>+</h3>
                   <p>Happy Customer</p>
                 </div>
                 <!-- counter end -->
@@ -1527,7 +1527,7 @@
               <div class="single-fun-factor">
                 <!-- counter start -->
                 <div class="counter text-center">
-                  <h3><span class="counter-active">65</span>+</h3>
+                  <h3><span class="counter-active">975</span>+</h3>
                   <p>Project Complete</p>
                 </div>
                 <!-- counter end -->
@@ -1537,7 +1537,7 @@
               <div class="single-fun-factor">
                 <!-- counter start -->
                 <div class="counter text-center">
-                  <h3><span class="counter-active">160</span>+</h3>
+                  <h3><span class="counter-active">9</span>+</h3>
                   <p>Years Experience</p>
                 </div>
                 <!-- counter end -->
