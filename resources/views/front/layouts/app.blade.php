@@ -189,7 +189,7 @@
                         </li> -->
                       </ul>
                     </li>
-                    <li><a href="{{ asset('template/front') }}/shop.html">Momen</a>
+                    <li><a href="">Momen</a>
                       <ul class="mega-menu">
                         <li><a href="/">Semua Momen</a>
                           <ul>
@@ -401,53 +401,108 @@
               <!-- mobile menu navigation start -->
               <nav>
                 <ul class="mobile-menu">
-                  <li class="menu-item-has-children"><a href="/">Home</a>
+                  <li class="menu-item-has-children"><a href="/">Katalog</a>
                     <ul class="dropdown">
-                      <li><a href="/">Home version 01</a></li>
-                      <li><a href="{{ asset('template/front') }}/index-2.html">Home version 02</a></li>
+                      <li><a href="#" data-item="Parcel Idul Fitri">Parcel Idul Fitri</a></li>
+                      <li><a href="#" data-item="Parcel Natal">Parcel Natal</a></li>
+                      <li><a href="#" data-item="Parcel Imlek">Parcel Imlek</a></li>
+                      <li><a href="#" data-item="Parcel Anak">Parcel Anak</a></li>
+                      <li><a href="#" data-item="Hampers Newborn">Hampers Newborn</a></li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children"><a href="/">pages</a>
+                  <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
+                      const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari backend Laravel
+
+                      const menuLinks = document.querySelectorAll('ul a[data-item]');
+
+                      menuLinks.forEach(link => {
+                        link.addEventListener('click', function(event) {
+                          event.preventDefault();
+                          const item = this.getAttribute('data-item');
+                          const message = `Hallo Admin ${profilNama}, saya ingin memesan ${item}.`;
+                          const whatsappUrl = `https://wa.me/${profilWa}?text=${encodeURIComponent(message)}`;
+                          window.open(whatsappUrl, '_blank');
+                        });
+                      });
+                    });
+                  </script>
+                  <li class="menu-item-has-children"><a href="/">Momen</a>
                     <ul class="megamenu dropdown">
-                      <li class="mega-title has-children"><a href="/">Column One</a>
-                        <ul class="dropdown">
-                          <li><a href="{{ asset('template/front') }}/compare.html">Compare Page</a></li>
-                          <li><a href="{{ asset('template/front') }}/login-register.html">Login &amp; Register</a></li>
-                          <li><a href="{{ asset('template/front') }}/my-account.html">My Account Page</a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-title has-children"><a href="/">Column two</a>
-                        <ul class="dropdown">
-                          <li><a href="{{ asset('template/front') }}/product-details.html">Product Details 1</a></li>
-                          <li><a href="{{ asset('template/front') }}/product-details-2.html">Product Details 2</a></li>
-                          <li><a href="{{ asset('template/front') }}/checkout.html">Checkout Page</a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-title has-children"><a href="/">Column Three</a>
-                        <ul class="dropdown">
-                          <li><a href="{{ asset('template/front') }}/error404.html">Error 404</a></li>
-                          <li><a href="{{ asset('template/front') }}/cart.html">Cart Page</a></li>
-                          <li><a href="{{ asset('template/front') }}/wishlist.html">Wish List Page</a></li>
-                        </ul>
-                      </li>
+
+                      <li><a href="#" data-tema="Duka Cita">Duka Cita</a></li>
+                      <li><a href="#" data-tema="Imlek">Imlek</a></li>
+                      <li><a href="#" data-tema="Pernikahan">Pernikahan</a></li>
+                      <li><a href="#" data-tema="Ulang Tahun">Ulang Tahun</a></li>
+                      <li><a href="#" data-tema="Ucapan Selamat">Ucapan Selamat</a></li>
+                      <li><a href="#" data-tema="Pembukaan Toko">Pembukaan Toko</a></li>
+                      <li><a href="#" data-tema="Valentine">Valentine</a></li>
+
+                      <li><a href="#" data-tema="Hari Ibu">Hari Ibu</a></li>
+                      <li><a href="#" data-tema="Kelahiran">Kelahiran</a></li>
+                      <li><a href="#" data-tema="Mid-Autumn Festival">Mid-Autumn Festival</a></li>
+                      <li><a href="#" data-tema="Cepat Sembuh">Cepat Sembuh</a></li>
+                      <li><a href="#" data-tema="Lamaran/Tunangan">Lamaran/Tunangan</a></li>
+                      <li><a href="#" data-tema="Permintaan Maaf">Permintaan Maaf</a></li>
+                      <li><a href="#" data-tema="Wisuda">Wisuda</a></li>
+
+                      <li><a href="#" data-tema="Anniversary">Anniversary</a></li>
+                      <li><a href="#" data-tema="Terima Kasih">Terima Kasih</a></li>
+                      <li><a href="#" data-tema="Romantis">Romantis</a></li>
+                      <li><a href="#" data-tema="Hari Ayah">Hari Ayah</a></li>
+                      <li><a href="#" data-tema="Lebaran">Lebaran</a></li>
+                      <li><a href="#" data-tema="Natal">Natal</a></li>
+
                     </ul>
                   </li>
-                  <li class="menu-item-has-children "><a href="/">shop</a>
+                  <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      const profilNama = "{{ $profil->nama_profil }}"; // Nama profil
+                      const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp
+
+                      document.querySelectorAll('.mega-menu a[data-tema]').forEach(function(link) {
+                        link.addEventListener('click', function(e) {
+                          e.preventDefault(); // Mencegah aksi default klik
+
+                          const tema = this.dataset.tema; // Mendapatkan tema dari atribut data
+                          const whatsappLink = `https://wa.me/${profilWa}?text=Hallo%20Admin%20${encodeURIComponent(profilNama)}%20saya%20ingin%20memesan%20dengan%20tema%20${encodeURIComponent(tema)}`;
+
+                          window.open(whatsappLink, '_blank'); // Membuka tautan di tab baru
+                        });
+                      });
+                    });
+                  </script>
+
+                  <li class="menu-item-has-children"><a href="/">Lokasi</a>
                     <ul class="dropdown">
-                      <li><a href="{{ asset('template/front') }}/shop.html">Shop Left Sidebar</a></li>
-                      <li><a href="{{ asset('template/front') }}/shop-right.html">Shop Right Sidebar</a></li>
-                      <li><a href="{{ asset('template/front') }}/shop-fullwidth.html">Shop Full Width</a></li>
+                      <li><a href="#" data-lokasi="Kota Tasikmalaya">Kota Tasikmalaya</a></li>
+                      <li><a href="#" data-lokasi="Kab Tasikmalaya">Kab Tasikmalaya</a></li>
+                      <li><a href="#" data-lokasi="Kab Ciamis">Kab Ciamis</a></li>
+                      <li><a href="#" data-lokasi="Kab Garut">Kab Garut</a></li>
+                      <li><a href="#" data-lokasi="Kota Banjar">Kota Banjar</a></li>
+                      <li><a href="#" data-lokasi="Kab Pangandaran">Kab Pangandaran</a></li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children "><a href="/">Blog</a>
-                    <ul class="dropdown">
-                      <li><a href="{{ asset('template/front') }}/blog.html">Blog Left Sidebar</a></li>
-                      <li><a href="{{ asset('template/front') }}/blog-right.html">Blog Right Sidebar</a></li>
-                      <li><a href="{{ asset('template/front') }}/blog-details.html">Blog Details Page</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="{{ asset('template/front') }}/about-us.html">About</a></li>
-                  <li><a href="{{ asset('template/front') }}/contact-us.html">Contact</a></li>
+                  <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
+                      const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari backend Laravel
+
+                      const menuLinks = document.querySelectorAll('.sub-menu a[data-lokasi]');
+
+                      menuLinks.forEach(link => {
+                        link.addEventListener('click', function(event) {
+                          event.preventDefault();
+                          const lokasi = this.getAttribute('data-lokasi');
+                          const message = `Hallo Admin ${profilNama}, saya ingin memesan untuk daerah ${lokasi}.`;
+                          const whatsappUrl = `https://wa.me/${profilWa}?text=${encodeURIComponent(message)}`;
+                          window.open(whatsappUrl, '_blank');
+                        });
+                      });
+                    });
+                  </script>
+                  <li><a href="/testimoni">Testimoni</a></li>
                 </ul>
               </nav>
               <!-- mobile menu navigation end -->
@@ -460,22 +515,17 @@
             <div class="offcanvas-widget-area">
               <div class="off-canvas-contact-widget">
                 <ul>
-                  <li>
-                    Mon - Fri : 9am to 5pm
-                  </li>
-                  <li>
-                    <a href="/">0123456789</a>
-                  </li>
-                  <li>
-                    <a href="/">info@yourdomain.com</a>
-                  </li>
+                  <li>Senis - Jumat : 09:00-17:00 WIB </li>
+                  <li><a href="">{{$profil->no_telp }}</a></li>
+                  <li><a href="{{$profil->email }}">{{$profil->email }}</a></li>
                 </ul>
               </div>
               <div class="off-canvas-social-widget">
-                <a href="/"><i class="ion-social-facebook"></i></a>
-                <a href="/"><i class="ion-social-twitter"></i></a>
-                <a href="/"><i class="ion-social-tumblr"></i></a>
-                <a href="/"><i class="ion-social-googleplus"></i></a>
+             <a href="{{$profil->facebook }}"><i class="ion-social-facebook"></i></a>
+                       <a href="{{$profil->twitter }}"><i class="ion-social-twitter"></i></a>
+                       <a href="{{$profil->instagram }}"><i class="ion-social-instagram"></i></a>
+                       <a href="{{$profil->youtube }}"><i class="ion-social-youtube"></i></a>
+         
               </div>
 
             </div>

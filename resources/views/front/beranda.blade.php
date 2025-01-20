@@ -605,7 +605,7 @@
 </div>
 <!-- Hero Section End -->
 
-<div class="container">
+ 
   <div class="custom-product-slider">
     <button class="custom-scroll-btn custom-prev">
       <i class="fas fa-chevron-left"></i>
@@ -613,6 +613,61 @@
 
     <div class="custom-slider-wrapper">
       <div class="custom-product-list">
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Bunga Papan">
+            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Bunga Papan">
+            <p class="custom-product-name">Bunga Papan</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Parcel">
+            <img src="https://www.delovery.com/images/icons/parcel-MDBkNDMy.webp" class="custom-product-image" alt="Parcel">
+            <p class="custom-product-name">Parcel</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Hand Bouquet">
+            <img src="https://www.delovery.com/images/icons/buket-bunga-MzY2OGZ.webp" class="custom-product-image" alt="Hand Bouquet">
+            <p class="custom-product-name">Hand Bouquet</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Standing Flower">
+            <img src="https://www.delovery.com/images/icons/standing-flower-Mzc3YTNhY.webp" class="custom-product-image" alt="Standing Flower">
+            <p class="custom-product-name">Standing Flower</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Cake & Pudding">
+            <img src="https://www.delovery.com/images/icons/kue-ulang-tahun-OTYyMTM3.webp" class="custom-product-image" alt="Cake & Pudding">
+            <p class="custom-product-name">Cake & Pudding</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Standing Paper Flower">
+            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Standing Paper Flower">
+            <p class="custom-product-name">Standing Paper Flower</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Table Bouquet">
+            <img src="https://www.delovery.com/images/icons/rangkaian-bunga-meja-YjZkMTU0OT.webp" class="custom-product-image" alt="Table Bouquet">
+            <p class="custom-product-name">Table Bouquet</p>
+          </a>
+        </div>
+
+        <div class="custom-product-card">
+          <a href="#" class="wa-link" data-item="Money Gift">
+            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Money Gift">
+            <p class="custom-product-name">Money Gift</p>
+          </a>
+        </div>
         <div class="custom-product-card">
           <a href="#" class="wa-link" data-item="Bunga Papan">
             <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Bunga Papan">
@@ -695,7 +750,7 @@
       <i class="fas fa-chevron-right"></i>
     </button>
   </div>
-</div>
+ 
 
 <div class="banner-area">
   <div class="slider-container">
