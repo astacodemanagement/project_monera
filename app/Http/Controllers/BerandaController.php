@@ -81,6 +81,37 @@ class BerandaController extends Controller
     }
 
 
+    public function blog_detail_1()
+    {
+        // Set page title and subtitle
+        $title = "Blog - Parcel by Monera";
+        $subtitle = "Menu Blog";
+        
+
+
+        return view('front.blog_detail_1', compact(
+            'title',
+            'subtitle',
+           
+        ));
+    }
+
+    public function blog_detail_2()
+    {
+        // Set page title and subtitle
+        $title = "Blog - Parcel by Monera";
+        $subtitle = "Menu Blog";
+
+
+
+        return view('front.blog_detail_2', compact(
+            'title',
+            'subtitle',
+
+        ));
+    }
+
+
    
 
     

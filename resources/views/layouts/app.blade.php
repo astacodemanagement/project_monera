@@ -66,8 +66,8 @@
                 <!-- ---------------------------------- -->
                 <div class="brand-logo d-flex align-items-center justify-content-between">
                     <a href="/home" class="text-nowrap logo-img">
-                        <img src="{{ asset('/upload/profil/' . $profil->logo) }}" class="dark-logo" alt="Logo-Dark" />
-                        <img src="{{ asset('/upload/profil/' . $profil->logo_dark) }}" class="light-logo" alt="Logo-light" />
+                        <img width="100px" src="{{ asset('/upload/profil/' . $profil->logo) }}" class="dark-logo" alt="Logo-Dark" />
+                        <img width="100px" src="{{ asset('/upload/profil/' . $profil->logo_dark) }}" class="light-logo" alt="Logo-light" />
                     </a>
                     <a href="javascript:void(0)"
                         class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none">

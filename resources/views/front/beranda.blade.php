@@ -4,6 +4,7 @@
 @section('content')
 <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"> -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
 <style>
   .category-item {
     border: 1px solid #ddd;
@@ -456,7 +457,7 @@
   }
 
   .banner-content-box span {
-    color: #ff4444;
+    color: #EE4D2D;
     font-weight: bold;
   }
 
@@ -605,152 +606,201 @@
 </div>
 <!-- Hero Section End -->
 
- 
-  <div class="custom-product-slider">
-    <button class="custom-scroll-btn custom-prev">
-      <i class="fas fa-chevron-left"></i>
-    </button>
 
-    <div class="custom-slider-wrapper">
-      <div class="custom-product-list">
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Bunga Papan">
-            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Bunga Papan">
-            <p class="custom-product-name">Bunga Papan</p>
-          </a>
-        </div>
+<!-- Start Product Area -->
+<div class="porduct-area" style="margin-top: 20px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
 
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Parcel">
-            <img src="https://www.delovery.com/images/icons/parcel-MDBkNDMy.webp" class="custom-product-image" alt="Parcel">
-            <p class="custom-product-name">Parcel</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Hand Bouquet">
-            <img src="https://www.delovery.com/images/icons/buket-bunga-MzY2OGZ.webp" class="custom-product-image" alt="Hand Bouquet">
-            <p class="custom-product-name">Hand Bouquet</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Standing Flower">
-            <img src="https://www.delovery.com/images/icons/standing-flower-Mzc3YTNhY.webp" class="custom-product-image" alt="Standing Flower">
-            <p class="custom-product-name">Standing Flower</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Cake & Pudding">
-            <img src="https://www.delovery.com/images/icons/kue-ulang-tahun-OTYyMTM3.webp" class="custom-product-image" alt="Cake & Pudding">
-            <p class="custom-product-name">Cake & Pudding</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Standing Paper Flower">
-            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Standing Paper Flower">
-            <p class="custom-product-name">Standing Paper Flower</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Table Bouquet">
-            <img src="https://www.delovery.com/images/icons/rangkaian-bunga-meja-YjZkMTU0OT.webp" class="custom-product-image" alt="Table Bouquet">
-            <p class="custom-product-name">Table Bouquet</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Money Gift">
-            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Money Gift">
-            <p class="custom-product-name">Money Gift</p>
-          </a>
-        </div>
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Bunga Papan">
-            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Bunga Papan">
-            <p class="custom-product-name">Bunga Papan</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Parcel">
-            <img src="https://www.delovery.com/images/icons/parcel-MDBkNDMy.webp" class="custom-product-image" alt="Parcel">
-            <p class="custom-product-name">Parcel</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Hand Bouquet">
-            <img src="https://www.delovery.com/images/icons/buket-bunga-MzY2OGZ.webp" class="custom-product-image" alt="Hand Bouquet">
-            <p class="custom-product-name">Hand Bouquet</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Standing Flower">
-            <img src="https://www.delovery.com/images/icons/standing-flower-Mzc3YTNhY.webp" class="custom-product-image" alt="Standing Flower">
-            <p class="custom-product-name">Standing Flower</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Cake & Pudding">
-            <img src="https://www.delovery.com/images/icons/kue-ulang-tahun-OTYyMTM3.webp" class="custom-product-image" alt="Cake & Pudding">
-            <p class="custom-product-name">Cake & Pudding</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Standing Paper Flower">
-            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Standing Paper Flower">
-            <p class="custom-product-name">Standing Paper Flower</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Table Bouquet">
-            <img src="https://www.delovery.com/images/icons/rangkaian-bunga-meja-YjZkMTU0OT.webp" class="custom-product-image" alt="Table Bouquet">
-            <p class="custom-product-name">Table Bouquet</p>
-          </a>
-        </div>
-
-        <div class="custom-product-card">
-          <a href="#" class="wa-link" data-item="Money Gift">
-            <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Money Gift">
-            <p class="custom-product-name">Money Gift</p>
-          </a>
+        <div class="section-title text-center">
+          <h2><span>Pilihan</span> Favorit Saat Ini</h2>
+          <p>Menjadikan pilihanmu lebih beragam dan variatif sesuai dengan kebutuhan anda</p>
         </div>
       </div>
     </div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
-        const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari backend Laravel
+    <div class="row product-two-row-4">
 
-        const waLinks = document.querySelectorAll('.wa-link');
 
-        waLinks.forEach(link => {
-          link.addEventListener('click', function(event) {
-            event.preventDefault();
-            const item = this.getAttribute('data-item');
-            const message = `Hallo Admin ${profilNama}, saya ingin bertanya terkait kategori: ${item}.`;
-            const whatsappUrl = `https://wa.me/${profilWa}?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
-          });
+      @foreach ($produk as $p)
+      <div class="col-lg-12">
+        <!-- single-product-wrap start -->
+        <div class="single-product-wrap">
+          <div class="product-image">
+            <a href="{{ route('katalog.katalog_detail', $p->slug) }}"><img src="/upload/products/{{ $p->image }}" alt="Produce Images"></a>
+            <!-- <span class="label">30% Off</span> -->
+
+            <a href="{{ route('katalog.katalog_detail', $p->slug) }}" class="add-to-cart" style="text-align: center;"> Detail</a>
+
+
+          </div>
+          <div class="product-content">
+            <h3><a href="{{ route('katalog.katalog_detail', $p->slug) }}">{{ $p->name }}</a></h3>
+            <div class="price-box">
+              <!-- <span class="old-price">$56</span> -->
+              <span class="new-price">Rp. {{ number_format($p->cost_price, 0, ',', '.') }}</span>
+            </div>
+          </div>
+        </div>
+        <!-- single-product-wrap end -->
+      </div>
+      @endforeach
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+<!-- Start Product End -->
+
+
+<div class="custom-product-slider">
+  <button class="custom-scroll-btn custom-prev">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+
+  <div class="custom-slider-wrapper">
+    <div class="custom-product-list">
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Bunga Papan">
+          <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Bunga Papan">
+          <p class="custom-product-name">Bunga Papan</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Parcel">
+          <img src="https://www.delovery.com/images/icons/parcel-MDBkNDMy.webp" class="custom-product-image" alt="Parcel">
+          <p class="custom-product-name">Parcel</p>
+        </a>
+      </div>
+
+    
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Standing Flower">
+          <img src="https://www.delovery.com/images/icons/standing-flower-Mzc3YTNhY.webp" class="custom-product-image" alt="Standing Flower">
+          <p class="custom-product-name">Standing Flower</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Cake & Pudding">
+          <img src="https://www.delovery.com/images/icons/kue-ulang-tahun-OTYyMTM3.webp" class="custom-product-image" alt="Cake & Pudding">
+          <p class="custom-product-name">Cake & Pudding</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Standing Paper Flower">
+          <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Standing Paper Flower">
+          <p class="custom-product-name">Standing Paper Flower</p>
+        </a>
+      </div>
+ 
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Money Gift">
+          <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Money Gift">
+          <p class="custom-product-name">Money Gift</p>
+        </a>
+      </div>
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Bunga Papan">
+          <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Bunga Papan">
+          <p class="custom-product-name">Bunga Papan</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Parcel">
+          <img src="https://www.delovery.com/images/icons/parcel-MDBkNDMy.webp" class="custom-product-image" alt="Parcel">
+          <p class="custom-product-name">Parcel</p>
+        </a>
+      </div>
+ 
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Standing Flower">
+          <img src="https://www.delovery.com/images/icons/standing-flower-Mzc3YTNhY.webp" class="custom-product-image" alt="Standing Flower">
+          <p class="custom-product-name">Standing Flower</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Cake & Pudding">
+          <img src="https://www.delovery.com/images/icons/kue-ulang-tahun-OTYyMTM3.webp" class="custom-product-image" alt="Cake & Pudding">
+          <p class="custom-product-name">Cake & Pudding</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Standing Paper Flower">
+          <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Standing Paper Flower">
+          <p class="custom-product-name">Standing Paper Flower</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Parcel">
+          <img src="https://www.delovery.com/images/icons/parcel-MDBkNDMy.webp" class="custom-product-image" alt="Parcel">
+          <p class="custom-product-name">Parcel</p>
+        </a>
+      </div>
+
+    
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Standing Flower">
+          <img src="https://www.delovery.com/images/icons/standing-flower-Mzc3YTNhY.webp" class="custom-product-image" alt="Standing Flower">
+          <p class="custom-product-name">Standing Flower</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Cake & Pudding">
+          <img src="https://www.delovery.com/images/icons/kue-ulang-tahun-OTYyMTM3.webp" class="custom-product-image" alt="Cake & Pudding">
+          <p class="custom-product-name">Cake & Pudding</p>
+        </a>
+      </div>
+
+      <div class="custom-product-card">
+        <a href="#" class="wa-link" data-item="Money Gift">
+          <img src="https://www.delovery.com/images/icons/bunga-papan-M2U3ZTUxZ.webp" class="custom-product-image" alt="Money Gift">
+          <p class="custom-product-name">Money Gift</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
+      const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari backend Laravel
+
+      const waLinks = document.querySelectorAll('.wa-link');
+
+      waLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const item = this.getAttribute('data-item');
+          const message = `Hallo Admin ${profilNama}, saya ingin bertanya terkait kategori: ${item}.`;
+          const whatsappUrl = `https://wa.me/${profilWa}?text=${encodeURIComponent(message)}`;
+          window.open(whatsappUrl, '_blank');
         });
       });
-    </script>
+    });
+  </script>
 
 
-    <button class="custom-scroll-btn custom-next">
-      <i class="fas fa-chevron-right"></i>
-    </button>
-  </div>
- 
+  <button class="custom-scroll-btn custom-next">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+</div>
+
 
 <div class="banner-area">
   <div class="slider-container">
@@ -773,7 +823,7 @@
       </div>
 
       <!-- Slide 2 -->
-      <div class="slide">
+      {{-- <div class="slide">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-sm-12">
@@ -787,10 +837,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
 
       <!-- Slide 3 -->
-      <div class="slide">
+      {{-- <div class="slide">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-sm-12">
@@ -804,7 +854,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
     </div>
 
     <script>
@@ -1027,7 +1077,7 @@
                 </div>
                 <div class="button-box d-flex justify-content-center mt-3">
                   <a href="https://wa.me/{{ $profil->no_wa }}?text=Hallo%20Admin%20{{ $profil->nama_profil }},%20saya%20ingin%20menanyakan%20beberapa%20hal%20umum.%20Mohon%20informasikan%20lebih%20lanjut." target="_blank">
-                    <button class="register-btn btn" type="button" style="padding: 10px 20px; background-color:rgb(27, 221, 75); color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    <button class="register-btn btn" type="button" style="padding: 10px 20px; background-color:#EE4D2D; color: white; border: none; border-radius: 5px; cursor: pointer;">
                       <span><i class="ion-social-whatsapp"></i> Hubungi Via WhatsApp</span>
                     </button>
                   </a>
@@ -1049,211 +1099,7 @@
 
 </div>
 </div>
-<!-- main-content-wrap end -->
-
-<!-- <div class="container occasions-container" style="margin-top:30px;">
-  <h4 class="mb-4">Cari Berdasarkan Occasions</h4>
-
-  <div class="row">
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/duka-cita-ZTg4NjllYz.webp" class="occasion-image" alt="Duka Cita">
-        <div class="occasion-info">
-          <div class="occasion-title">Duka Cita</div>
-          <div class="occasion-count">(921 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/ucapan-selamat-YzlhY2.webp" class="occasion-image" alt="Imlek">
-        <div class="occasion-info">
-          <div class="occasion-title">Terima Kasih</div>
-          <div class="occasion-count">(121 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/pernikahan-NWI3MDYy.webp" class="occasion-image" alt="Pernikahan">
-        <div class="occasion-info">
-          <div class="occasion-title">Pernikahan</div>
-          <div class="occasion-count">(1204 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/terima-kasih-N2Q5ZWQz.webp" class="occasion-image" alt="Ulang Tahun">
-        <div class="occasion-info">
-          <div class="occasion-title">Ulang Tahun</div>
-          <div class="occasion-count">(2080 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/duka-cita-ZTg4NjllYz.webp" class="occasion-image" alt="Duka Cita">
-        <div class="occasion-info">
-          <div class="occasion-title">Duka Cita</div>
-          <div class="occasion-count">(921 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/ucapan-selamat-YzlhY2.webp" class="occasion-image" alt="Imlek">
-        <div class="occasion-info">
-          <div class="occasion-title">Terima Kasih</div>
-          <div class="occasion-count">(121 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/pernikahan-NWI3MDYy.webp" class="occasion-image" alt="Pernikahan">
-        <div class="occasion-info">
-          <div class="occasion-title">Pernikahan</div>
-          <div class="occasion-count">(1204 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/terima-kasih-N2Q5ZWQz.webp" class="occasion-image" alt="Ulang Tahun">
-        <div class="occasion-info">
-          <div class="occasion-title">Ulang Tahun</div>
-          <div class="occasion-count">(2080 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/duka-cita-ZTg4NjllYz.webp" class="occasion-image" alt="Duka Cita">
-        <div class="occasion-info">
-          <div class="occasion-title">Duka Cita</div>
-          <div class="occasion-count">(921 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/ucapan-selamat-YzlhY2.webp" class="occasion-image" alt="Imlek">
-        <div class="occasion-info">
-          <div class="occasion-title">Terima Kasih</div>
-          <div class="occasion-count">(121 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/pernikahan-NWI3MDYy.webp" class="occasion-image" alt="Pernikahan">
-        <div class="occasion-info">
-          <div class="occasion-title">Pernikahan</div>
-          <div class="occasion-count">(1204 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/terima-kasih-N2Q5ZWQz.webp" class="occasion-image" alt="Ulang Tahun">
-        <div class="occasion-info">
-          <div class="occasion-title">Ulang Tahun</div>
-          <div class="occasion-count">(2080 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/duka-cita-ZTg4NjllYz.webp" class="occasion-image" alt="Duka Cita">
-        <div class="occasion-info">
-          <div class="occasion-title">Duka Cita</div>
-          <div class="occasion-count">(921 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/ucapan-selamat-YzlhY2.webp" class="occasion-image" alt="Imlek">
-        <div class="occasion-info">
-          <div class="occasion-title">Terima Kasih</div>
-          <div class="occasion-count">(121 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/pernikahan-NWI3MDYy.webp" class="occasion-image" alt="Pernikahan">
-        <div class="occasion-info">
-          <div class="occasion-title">Pernikahan</div>
-          <div class="occasion-count">(1204 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/terima-kasih-N2Q5ZWQz.webp" class="occasion-image" alt="Ulang Tahun">
-        <div class="occasion-info">
-          <div class="occasion-title">Ulang Tahun</div>
-          <div class="occasion-count">(2080 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/duka-cita-ZTg4NjllYz.webp" class="occasion-image" alt="Duka Cita">
-        <div class="occasion-info">
-          <div class="occasion-title">Duka Cita</div>
-          <div class="occasion-count">(921 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/ucapan-selamat-YzlhY2.webp" class="occasion-image" alt="Imlek">
-        <div class="occasion-info">
-          <div class="occasion-title">Terima Kasih</div>
-          <div class="occasion-count">(121 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/pernikahan-NWI3MDYy.webp" class="occasion-image" alt="Pernikahan">
-        <div class="occasion-info">
-          <div class="occasion-title">Pernikahan</div>
-          <div class="occasion-count">(1204 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="occasion-item">
-        <img src="https://www.delovery.com/images/icons/terima-kasih-N2Q5ZWQz.webp" class="occasion-image" alt="Ulang Tahun">
-        <div class="occasion-info">
-          <div class="occasion-title">Ulang Tahun</div>
-          <div class="occasion-count">(2080 Pilihan)</div>
-        </div>
-      </div>
-    </div>
-
-    
-  </div>
-</div> -->
+ 
 <div class="container mt-4">
   <h4>Pilih Penerima Spesial Anda</h4>
 
@@ -1341,55 +1187,7 @@
 </script>
 
 
-<!-- Start Product Area -->
-<div class="porduct-area section-pb" style="margin-top: 20px;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
 
-        <div class="section-title text-center">
-          <h2><span>Pilihan</span> Favorit Saat Ini</h2>
-          <p>Menjadikan pilihanmu lebih beragam dan variatif sesuai dengan kebutuhan anda</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row product-two-row-4">
-
-
-      @foreach ($produk as $p)
-      <div class="col-lg-12">
-        <!-- single-product-wrap start -->
-        <div class="single-product-wrap">
-          <div class="product-image">
-            <a href="{{ route('katalog.katalog_detail', $p->slug) }}"><img src="/upload/products/{{ $p->image }}" alt="Produce Images"></a>
-            <!-- <span class="label">30% Off</span> -->
-
-            <a href="{{ route('katalog.katalog_detail', $p->slug) }}" class="add-to-cart" style="text-align: center;"> Detail</a>
-
-
-          </div>
-          <div class="product-content">
-            <h3><a href="{{ route('katalog.katalog_detail', $p->slug) }}">{{ $p->name }}</a></h3>
-            <div class="price-box">
-              <!-- <span class="old-price">$56</span> -->
-              <span class="new-price">Rp. {{ number_format($p->cost_price, 0, ',', '.') }}</span>
-            </div>
-          </div>
-        </div>
-        <!-- single-product-wrap end -->
-      </div>
-      @endforeach
-
-
-
-
-
-
-    </div>
-  </div>
-</div>
-<!-- Start Product End -->
 
 
 <div class="container mb-3" style="margin-top: 20px;">
@@ -1470,17 +1268,17 @@
   </div>
 </div>
 
-<div class="container" style="background-color: #ff4444; margin-bottom:20px; padding:10px; border-radius:6px;">
+<div class="container" style="background-color: #EE4D2D; margin-bottom:20px; padding:10px; border-radius:6px;">
   <div class="row">
     <div class="col-lg-12">
 
       <div class="section-title text-center">
-        <h2 style="color:rgb(248, 245, 245); ">Hubungi Customer Service Kami</h2>
+        <h2 style="color:rgb(248, 245, 245); margin-top:5px; ">Hubungi Customer Service Kami</h2>
         <!-- <a href="" class="buy_now_btn" style="background-color: white; padding:10px; border-radius:5px; color: green; text-decoration: none; ">
           <i class="ion-social-whatsapp"></i> Chat Whatsapp
         </a> -->
         <a href="https://wa.me/{{ $profil->no_wa }}?text=Hallo%20Admin%20{{ $profil->nama_profil }},%20saya%20ingin%20menanyakan%20beberapa%20hal%20umum.%20Mohon%20informasikan%20lebih%20lanjut." target="_blank">
-          <button class="buy_now_btn" type="button" style="padding: 10px 20px; background-color:rgb(27, 221, 75); color: white; border: none; border-radius: 5px; cursor: pointer;">
+          <button class="buy_now_btn" type="button" style="padding: 10px 20px; background-color:rgb(241, 80, 5); color: white; border: none; border-radius: 5px; cursor: pointer;">
             <span><i class="ion-social-whatsapp"></i> Hubungi Via WhatsApp</span>
           </button>
         </a>
@@ -1510,37 +1308,39 @@
         <!-- single-blog Start -->
         <div class="single-blog mt-30">
           <div class="blog-image">
-            <a href=""><img src="https://www.delovery.com/blog/wp-content/uploads/2017/03/manfaat-bunga-kamboja-768x432.webp" alt=""></a>
+            <a href=""><img src="{{ asset('template/front') }}/assets/images/blog/artikel_1.jpg" alt=""></a>
             <div class="meta-tag">
-              <p><span>21</span> / Nov</p>
+              <p><span>10</span> / Feb</p>
             </div>
           </div>
 
           <div class="blog-content">
-            <h4><a href="">Lorem Ipsum available but majority</a></h4>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some ledmid form There are many majority have suffered </p>
+           <h4><a href="{{ route('blog_detail_1') }}">Lebih Dari Sekedar Hadiah, Parsel Adalah Bahasa Cinta yang Tak Terucap</a></h4>
+
+            <p>Pernahkah Anda menerima parsel secara tiba-tiba? Rasanya seperti mendapat kejutan yang menghangatkan hati, bukan? Lebih dari sekadar hadiah, parsel adalah cara menunjukkan cinta. </p>
             <div class="read-more">
-              <a href="">READ MORE</a>
+              <a href="{{ route('blog_detail_1') }}">READ MORE</a>
             </div>
           </div>
         </div>
         <!-- single-blog End -->
       </div>
+
       <div class="col-lg-6 col-md-6">
         <!-- single-blog Start -->
         <div class="single-blog mt-30">
           <div class="blog-image">
-            <a href=""><img src="https://www.delovery.com/blog/wp-content/uploads/2017/04/jenis-bunga-lebih-indah-bunga-mawar-768x432.webp" alt=""></a>
+            <a href=""><img src="{{ asset('template/front') }}/assets/images/blog/artikel_2.jpg" alt=""></a>
             <div class="meta-tag">
-              <p><span>26</span> / Nov</p>
+              <p><span>10</span> / Feb</p>
             </div>
           </div>
 
           <div class="blog-content">
-            <h4><a href="">Available but majority lorem Ipsum </a></h4>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some ledmid form There are many majority have suffered </p>
+            <h4><a href="{{ route('blog_detail_2') }}">7 Tips Memilih Parsel Anti Gagal </a></h4>
+            <p>Ada banyak cara untuk menunjukkan rasa peduli, tetapi tidak ada yang lebih menyenangkan daripada menerima parsel penuh kejutan. Dari kemasan yang menarik hingga isi yang bermanfaat, parsel selalu punya daya tarik tersendiri. </p>
             <div class="read-more">
-              <a href="">READ MORE</a>
+              <a href="{{ route('blog_detail_2') }}">READ MORE</a>
             </div>
           </div>
         </div>

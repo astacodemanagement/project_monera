@@ -1,7 +1,6 @@
 <?php
 use App\Http\Controllers\TestimonialController;
 use App\Http\Controllers\SliderController;
- 
 use App\Http\Controllers\AdjustmentController;
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\StockOpnameController;
@@ -41,6 +40,8 @@ Route::get('/', [BerandaController::class, 'index'])->name('beranda');
 Route::get('/katalog/{slug}', [BerandaController::class, 'katalog_detail'])->name('katalog.katalog_detail');
 
 Route::get('/testimoni', [BerandaController::class, 'testimoni'])->name('testimoni');
+Route::get('/blog_detail/sekedar-hadiah', [BerandaController::class, 'blog_detail_1'])->name('blog_detail_1');
+Route::get('/blog_detail/tips-memilih', [BerandaController::class, 'blog_detail_2'])->name('blog_detail_2');
 Route::get('/katalog', [BerandaController::class, 'katalog'])->name('katalog');
 Route::get('/detail_katalog', [BerandaController::class, 'detail_katalog'])->name('detail_katalog');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
