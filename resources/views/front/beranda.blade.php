@@ -1066,7 +1066,7 @@
 
                 <div class="row justify-content-center" style="width: 100%; margin: 20px 0;">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3809286647124!2d108.18362739999999!3d-7.197304899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4f86b4dd88bd%3A0x83e221ebdaa97b94!2sMonerahandmade!5e0!3m2!1sen!2sid!4v1736127819115!5m2!1sen!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.731135436516!2d108.147398!3d-7.1570518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4f006a76213b%3A0x6d223ccd8be0afbe!2sParcel%20Tasik%20by%20Monera!5e0!3m2!1sen!2sid!4v1740778518416!5m2!1sen!2sid"
                     width="100%"
                     height="450"
                     style="border: 0; max-width: 100%;"
@@ -1074,6 +1074,8 @@
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                   </iframe>
+
+
                 </div>
                 <div class="button-box d-flex justify-content-center mt-3">
                   <a href="https://wa.me/{{ $profil->no_wa }}?text=Hallo%20Admin%20{{ $profil->nama_profil }},%20saya%20ingin%20menanyakan%20beberapa%20hal%20umum.%20Mohon%20informasikan%20lebih%20lanjut." target="_blank">
