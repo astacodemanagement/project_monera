@@ -145,7 +145,7 @@
                                     <ul>
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/katalog">Katalog</a>
-                                            <ul class="mega-menu">
+                                            <ul class="mega-menu" style="color:#EE4D2D">
                                                 <li><a href="">Tersedia</a>
                                                     <ul>
                                                         <li><a href="#" data-item="Parcel Idul Fitri">Parcel Idul
@@ -183,7 +183,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="">Momen</a>
-                                            <ul class="mega-menu">
+                                            <ul class="mega-menu" style="color:#EE4D2D">
                                                 <li><a href="/">Semua Momen</a>
                                                     <ul>
                                                         <li><a href="#" data-tema="Duka Cita">Duka Cita</a></li>
@@ -202,7 +202,8 @@
                                                     <ul>
                                                         <li><a href="#" data-tema="Hari Ibu">Hari Ibu</a></li>
                                                         <li><a href="#" data-tema="Kelahiran">Kelahiran</a></li>
-                                                        <li><a href="#" data-tema="Mid-Autumn Festival">Mid-Autumn
+                                                        <li><a href="#"
+                                                                data-tema="Mid-Autumn Festival">Mid-Autumn
                                                                 Festival</a></li>
                                                         <li><a href="#" data-tema="Cepat Sembuh">Cepat
                                                                 Sembuh</a></li>
@@ -247,7 +248,7 @@
                                         </script>
 
                                         <li><a href="/">Lokasi</a>
-                                            <ul class="sub-menu">
+                                            <ul class="sub-menu" style="color:#EE4D2D">
                                                 <li><a href="#" data-lokasi="Kota Tasikmalaya">Kota
                                                         Tasikmalaya</a></li>
                                                 <li><a href="#" data-lokasi="Kab Tasikmalaya">Kab
@@ -416,13 +417,16 @@
                                             const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
                                             const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari backend Laravel
 
-                                            const menuLinks = document.querySelectorAll('ul a[data-item]');
+                                            // Ambil semua elemen dengan data-lokasi atau data-lokasi2 (desktop & mobile)
+                                            const menuLinks = document.querySelectorAll('a[data-lokasi], a[data-lokasi2]');
 
                                             menuLinks.forEach(link => {
                                                 link.addEventListener('click', function(event) {
                                                     event.preventDefault();
-                                                    const item = this.getAttribute('data-item');
-                                                    const message = `Hallo Admin ${profilNama}, saya ingin memesan ${item}.`;
+                                                    const lokasi = this.getAttribute('data-lokasi') || this.getAttribute(
+                                                        'data-lokasi2');
+                                                    const message =
+                                                        `Hallo Admin ${profilNama}, saya ingin memesan untuk daerah ${lokasi}.`;
                                                     const whatsappUrl =
                                                         `https://wa.me/${profilWa}?text=${encodeURIComponent(message)}`;
                                                     window.open(whatsappUrl, '_blank');
@@ -430,8 +434,9 @@
                                             });
                                         });
                                     </script>
+
                                     <li class="menu-item-has-children"><a href="/">Momen</a>
-                                        <ul class="megamenu dropdown">
+                                        <ul class="megamenu dropdown" style="color:#EE4D2D">
 
                                             <li><a href="#" data-tema="Duka Cita">Duka Cita</a></li>
                                             <li><a href="#" data-tema="Imlek">Imlek</a></li>
@@ -465,7 +470,8 @@
                                             const profilNama = "{{ $profil->nama_profil }}"; // Nama profil
                                             const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp
 
-                                            document.querySelectorAll('.mega-menu a[data-tema]').forEach(function(link) {
+                                            document.querySelectorAll('.mega-menu a[data-tema], .megamenu.dropdown a[data-tema]').forEach(function(
+                                                link) {
                                                 link.addEventListener('click', function(e) {
                                                     e.preventDefault(); // Mencegah aksi default klik
 
@@ -494,10 +500,11 @@
                                     </li>
                                     <script>
                                         document.addEventListener('DOMContentLoaded', function() {
-                                            const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
-                                            const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari backend Laravel
+                                            const profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari Laravel
+                                            const profilWa = "{{ $profil->no_wa }}"; // Nomor WhatsApp dari Laravel
 
-                                            const menuLinks = document.querySelectorAll('.sub-menu a[data-lokasi]');
+                                            // Pilih semua link dengan atribut data-lokasi (untuk desktop & mobile)
+                                            const menuLinks = document.querySelectorAll('a[data-lokasi]');
 
                                             menuLinks.forEach(link => {
                                                 link.addEventListener('click', function(event) {
@@ -579,7 +586,7 @@
                                         var email = document.getElementById('emailInput').value;
                                         var profilNama = "{{ $profil->nama_profil }}"; // Nama profil dari backend Laravel
                                         var message =
-                                        `Halo Admin ${profilNama}, saya ingin mendapatkan informasi terbaru. Email saya: ${email}`;
+                                            `Halo Admin ${profilNama}, saya ingin mendapatkan informasi terbaru. Email saya: ${email}`;
                                         var whatsappUrl = `https://wa.me/{{ $profil->no_wa }}?text=${encodeURIComponent(message)}`;
                                         window.open(whatsappUrl, '_blank');
                                     });
