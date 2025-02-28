@@ -23,16 +23,17 @@ class BerandaController extends Controller
         // Set page title and subtitle
         $title = "Parcel by Monera";
         $subtitle = "Menu Beranda";
-        $produk = Product::all();
 
+        // Ambil produk dan urutkan berdasarkan created_at terbaru
+        $produk = Product::orderBy('created_at', 'desc')->get();
 
         return view('front.beranda', compact(
             'produk',
             'title',
             'subtitle',
-           
         ));
     }
+
 
 
     public function katalog()
