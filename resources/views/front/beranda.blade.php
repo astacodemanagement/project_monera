@@ -560,7 +560,7 @@
 
 
   <!-- Single Slide Start -->
-  <div class="single-slide" style="background-image: url({{ asset('template/front') }}/assets/images/slider/2.png)">
+  {{-- <div class="single-slide" style="background-image: url({{ asset('template/front') }}/assets/images/slider/2.png)">
     <!-- Hero Content One Start -->
     <div class="hero-content-one container">
       <div class="row">
@@ -577,12 +577,12 @@
       </div>
     </div>
     <!-- Hero Content One End -->
-  </div>
+  </div> --}}
   <!-- Single Slide End -->
 
 
   <!-- Single Slide Start -->
-  <div class="single-slide" style="background-image: url({{ asset('template/front') }}/assets/images/slider/3.png)">
+  {{-- <div class="single-slide" style="background-image: url({{ asset('template/front') }}/assets/images/slider/3.png)">
     <!-- Hero Content One Start -->
     <div class="hero-content-one container">
       <div class="row">
@@ -599,7 +599,7 @@
       </div>
     </div>
     <!-- Hero Content One End -->
-  </div>
+  </div> --}}
   <!-- Single Slide End -->
 
 
@@ -802,7 +802,7 @@
 </div>
 
 
-<div class="banner-area">
+{{-- <div class="banner-area">
   <div class="slider-container">
     <div class="slides">
       <!-- Slide 1 -->
@@ -823,7 +823,7 @@
       </div>
 
       <!-- Slide 2 -->
-      {{-- <div class="slide">
+      <div class="slide">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-sm-12">
@@ -837,10 +837,10 @@
             </div>
           </div>
         </div>
-      </div> --}}
+      </div>
 
       <!-- Slide 3 -->
-      {{-- <div class="slide">
+      <div class="slide">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-sm-12">
@@ -854,7 +854,7 @@
             </div>
           </div>
         </div>
-      </div> --}}
+      </div>
     </div>
 
     <script>
@@ -884,7 +884,7 @@
     <!-- Bullet Indicators -->
     <div class="slider-dots"></div>
   </div>
-</div>
+</div> --}}
 
 
 <script>
