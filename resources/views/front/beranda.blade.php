@@ -969,7 +969,7 @@
           <img src="https://www.delovery.com/images/cities-min.webp" alt="Wide Coverage" class="img-fluid" style="width: 64px;">
         </div>
         <h5 class="fw-bold mb-2">Jangkauan Luas</h5>
-        <p class="text-muted">Kirim ke LEBIH DARI 200++ Kota Di Indonesia</p>
+        <p class="text-muted">Kirim ke LEBIH banyak Kota Di Priangan Timur</p>
       </div>
     </div>
 
