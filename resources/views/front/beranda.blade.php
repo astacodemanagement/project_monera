@@ -658,7 +658,7 @@
 <!-- Start Product End -->
 
 
-<div class="custom-product-slider">
+{{-- <div class="custom-product-slider">
   <button class="custom-scroll-btn custom-prev">
     <i class="fas fa-chevron-left"></i>
   </button>
@@ -799,7 +799,7 @@
   <button class="custom-scroll-btn custom-next">
     <i class="fas fa-chevron-right"></i>
   </button>
-</div>
+</div> --}}
 
 
 {{-- <div class="banner-area">
