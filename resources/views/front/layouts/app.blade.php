@@ -645,7 +645,7 @@
                                 <ul class="footer-contact">
                                     <li>
                                         <label>WhatsApp</label>
-                                        <a href="https://wa.me/{{ $profil->no_wa }}?text={{ urlencode('Halo ' . $profil->nama_profil . ', Saya ingin pesan rangkaian bunga / Gift di Delovery dengan mudah dan cepat. Bisa dibantu?') }}"
+                                        <a href="https://wa.me/{{ $profil->no_wa }}?text={{ urlencode('Halo ' . $profil->nama_profil . ', Saya ingin pesan rangkaian bunga / Gift di Monera dengan mudah dan cepat. Bisa dibantu?') }}"
                                             target="_blank">
                                             {{ $profil->no_wa }}
                                         </a>

@@ -1418,7 +1418,7 @@
       <div class="col-lg-7">
         <div class="about-us-contents">
           <h3>Kirim Sekarang, <span>Bayar Nanti.</span></h3>
-          <p>Join member Corporate Delovery, dan nikmati mudahnya berkirim gift ke lebih dari 200 kota di seluruh Indonesia </p>
+          <p>Join member Corporate Monera, dan nikmati mudahnya berkirim gift ke lebih dari 200 kota di seluruh Indonesia </p>
           <div class="about-us-btn">
             <a href="#">Join Sekarang</a>
           </div>
